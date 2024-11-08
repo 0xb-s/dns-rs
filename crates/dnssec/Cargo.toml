@@ -1,0 +1,8 @@
+[package]
+name = "dnssec"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+dns-core = { path = "../../crates/dns-core" }
+ring = "0.17.8"
