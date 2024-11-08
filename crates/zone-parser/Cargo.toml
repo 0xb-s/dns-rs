@@ -1,0 +1,10 @@
+[package]
+name = "zone-parser"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+dns-core = { path = "../dns-core" }
+serde = { version = "1.0", features = ["derive"] }
+regex = "1.5"
+anyhow = "1.0"
