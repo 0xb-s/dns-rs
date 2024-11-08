@@ -1,0 +1,15 @@
+[package]
+name = "dns-rs"
+version = "0.1.0"
+edition = "2021"
+[workspace]
+members = [
+    "crates/dns-core",
+    "crates/dns-transport",
+    "crates/dnssec",
+    "crates/extensions",
+    "crates/dot",
+    "crates/utils", "crates/zone-parser",
+
+]
+[dependencies]
